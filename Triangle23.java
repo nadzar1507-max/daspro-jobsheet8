@@ -7,16 +7,16 @@ public class Triangle23 {
         System.out.print("Masukan nilai n= ");
         int n = sc.nextInt();
 
-        int i = 1;
-        while (i <= n) {
+        int i = n;
+        while (i >= 1) {
 
             int j = 0;
-            while (j <= i) {
+            while (j < i) {
                 System.out.print("*");
                 j++;
             }
             System.out.println();
-            i++;
+            i--;
         }
     }
 }
